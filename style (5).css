@@ -1,0 +1,43 @@
+.logo {
+    max-height: 100px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15 px;
+    box-sizing: border-box;
+    max-width: 1330px;
+    margin: 0 auto;
+}
+.menu {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    list-style: none;
+    margin-left: 94;
+}
+.menu li{
+    margin-left: 94px;
+}
+.menu li a{
+    color: #252b42; ; text-decoration: none;
+}
+.menu li a:hover{
+    color: #FA4A0C;
+}
+.txt2 {
+    text-align: center;
+}
+.txt {
+    font-size: 50px;
+}
+.section {
+    background: url(img/1679259261_bogatyr-club-p-ingushetiya-fon-foni-krasivo-4.jpg);
+    height: 210vh;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.txt3 {
+    color: rgb(255, 255, 255);
+}

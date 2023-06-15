@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.box {
+    background:url(gif/1PSm.gif);
+    height: 100vh;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+
+}
+.box2 {
+    border-radius: 30px;
+}
+.text1 {
+    color: rgb(255, 255, 255);
+    float: inline-end;
+    font-style: italic;
+
+}
+.text2 {
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+}
+.link {
+    color: blue;
+
+}
+.text3 {
+    font-size: 100px;
+    font-style: italic;
+    color: aliceblue;
+}
+.text4 {
+    color: aliceblue;
+    font-style: italic;
+}
+.text5 {
+    color: aliceblue;
+    font-style: italic;
+}
+.logo {
+    max-height: 100px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15 px;
+    box-sizing: border-box;
+    max-width: 1330px;
+    margin: 0 auto;
+}
+.menu {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    list-style: none;
+    margin-left: 94;
+}
+.menu li{
+    margin-left: 94px;
+}
+.menu li a{
+    color: #252b42; ; text-decoration: none;
+}
+.menu li a:hover{
+    color: #FA4A0C;
+}
