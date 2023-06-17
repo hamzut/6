@@ -41,3 +41,26 @@
 .txt3 {
     color: rgb(255, 255, 255);
 }
+.silki {
+	position: relative;
+	color: #484848;
+	font-size: 1.25rem;
+	text-decoration: none;
+}
+
+.silki:before {
+	content: '';
+	position: absolute;
+	left: 0; bottom: -5px;
+	width: 0;
+	height: 1.5px;
+	background-color: #FA4A0C;
+}
+
+.silki:hover:before {
+	width: 100%;
+}
+
+.silki:before {
+	transition: width 0.35s;
+}
